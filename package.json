@@ -1,0 +1,27 @@
+{
+  "name": "qlocx-iboxen-arbetsprov",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node api/index.js",
+    "dev": "nodemon api/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^10.1.0",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
+    "mongoose": "^5.13.7"
+  },
+  "devDependencies": {
+    "jest": "^27.1.0",
+    "nodemon": "^2.0.12",
+    "supertest": "^6.1.6"
+  }
+}
